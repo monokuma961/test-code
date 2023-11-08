@@ -48,7 +48,8 @@ class graph:
             
     
     def edges(self):
-        
+        for u in self.edge.keys():
+            v=self.edge[u]
         return 0
             
             
